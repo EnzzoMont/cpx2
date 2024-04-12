@@ -1,0 +1,24 @@
+.white-icon{
+    color: #ffffff;
+}
+
+.container{
+    padding-left:15vw;
+    padding-right:15vw;
+}
+
+.text__slashed{
+    text-decoration: line-through;
+}
+
+.hidden{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding-left: 10vw;
+        padding-right: 10vw;
+
+    }
+}
