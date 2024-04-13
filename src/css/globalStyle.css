@@ -15,10 +15,29 @@
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+.show_more{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 1100px) {
     .container{
         padding-left: 10vw;
         padding-right: 10vw;
 
     }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding-left: 7vw;
+        padding-right: 7vw;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* .container{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    } */
 }

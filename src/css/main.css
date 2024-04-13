@@ -231,4 +231,52 @@ main {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 880px) {
+    .right {
+        display: none;
+    }
+}
 
+@media screen and (max-width: 425px) {
+    body{
+        margin: 0 1px;
+        padding: 0 10px;
+    }
+    .section__div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__photos h1 {
+        color: rgba(0, 0, 0, 0.89);
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .left_title h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .list__photos{
+        margin: 0px;
+    }
+
+    .container{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .list__services{
+        display: flex;
+        flex-direction: column;
+    }
+    .comments{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkin__button {
+    }
+
+}

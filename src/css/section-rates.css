@@ -81,3 +81,11 @@
 .comments__time span{
     color: rgba(0, 0, 0, 0.589);
 }
+
+@media screen and (max-width: 880px) {
+    .comments__list{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
